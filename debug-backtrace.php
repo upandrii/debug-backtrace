@@ -52,10 +52,14 @@ if (!class_exists('Debug_Backtrace')) {
          * Handle notice
          */
         public function handle_notice($errno, $errstr, $errfile, $errline) {
-            if (error_reporting() & $errno) {
-                echo "<pre>Notice: $errstr\nFile: $errfile\nLine: $errline\n";
-                    debug_print_backtrace();
-                echo "</pre>";
+            if (error_reporting() & $errno) {?>
+                <pre>
+                    <?php
+                        echo esc_html("Notice: $errstr\nFile: $errfile\nLine: $errline\n");
+                        debug_print_backtrace();
+                        ?>
+                </pre>
+                <?php
             }
             return true;
         }

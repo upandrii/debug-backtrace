@@ -7,6 +7,8 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
+Easily display PHP backtraces when Notices occur. Designed for developers to quickly identify the source of early execution issues in WordPress.
+
 == Description ==
 
 Debug Backtrace is a lightweight developer tool that displays PHP backtraces when Notices occur, helping you identify and fix issues caused by early execution or translation loading problems. Useful for debugging during plugin and theme development.
