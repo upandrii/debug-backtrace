@@ -1,4 +1,4 @@
-Debug Backtrace
+Notice TraceLog
 
 Author: Andrii Shuliak
 Version: 1.0.0
@@ -9,7 +9,7 @@ Plugin URI: https://github.com/upandrii/debug-backtrace
 
 Description
 
-Debug Backtrace is a lightweight WordPress plugin that helps developers diagnose PHP notices by automatically showing a full backtrace.
+Notice TraceLog is a lightweight WordPress plugin that helps developers diagnose PHP notices by automatically showing a full backtrace.
 
 It is particularly useful for identifying code that triggers errors too early (e.g., before init) or for debugging translation loading issues and other timing-sensitive problems.
 
@@ -41,7 +41,7 @@ define('WP_DEBUG_DISPLAY', true);
 
 Installation
 	1.	Download or clone the plugin repository.
-	2.	Upload the debug-backtrace folder into your WordPress site’s /wp-content/plugins/ directory.
+	2.	Upload the wp-backtrace-viewer folder into your WordPress site’s /wp-content/plugins/ directory.
 	3.	Activate the plugin through the WordPress admin panel (Plugins > Installed Plugins > Debug Backtrace).
 	4.	Ensure that WP_DEBUG and WP_DEBUG_DISPLAY are enabled in your wp-config.php file.
 

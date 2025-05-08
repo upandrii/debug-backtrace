@@ -1,0 +1,16 @@
+{
+  "name": "debug-backtrace",
+  "version": "1.0.0",
+  "description": "Debug Backtrace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-compress": "^2.0.0"
+  }
+}
